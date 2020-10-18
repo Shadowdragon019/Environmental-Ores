@@ -1,0 +1,398 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "ShattuckiteOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shattuckite_ore"
+    },
+    {
+      "name": "Shattuckite",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shattuckite"
+    },
+    {
+      "name": "ShattuckiteOreAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shattuckite_ore_additional_generation_condition",
+      "metadata": {
+        "return_type": "LOGIC",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PolishedShattuckite",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_shattuckite"
+    },
+    {
+      "name": "PolishedShattuckiteRightClickedInAir",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_shattuckite_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PolishedShattuckiteR",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "polished_shattuckite_r"
+    },
+    {
+      "name": "DeepBlueSapphireOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_blue_sapphire_ore"
+    },
+    {
+      "name": "DeepBlueSapphire",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_blue_sapphire"
+    },
+    {
+      "name": "ShattuckiteOreLoot",
+      "type": "loottable",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shattuckite_ore_loot"
+    },
+    {
+      "name": "DeepBlueSapphireOreLoot",
+      "type": "loottable",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_blue_sapphire_ore_loot"
+    },
+    {
+      "name": "TourmalineCrystal",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tourmaline_crystal"
+    },
+    {
+      "name": "TourmalineOreStone",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tourmaline_ore_stone"
+    },
+    {
+      "name": "TourmalineOreStoneUpdateTick",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tourmaline_ore_stone_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneTourmalineible",
+      "type": "tag",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_tourmalineible"
+    },
+    {
+      "name": "SpreadTourmalineSpikes",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spread_tourmaline_spikes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TourmalineOreGravel",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tourmaline_ore_gravel"
+    },
+    {
+      "name": "GravelTourmalineible",
+      "type": "tag",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gravel_tourmalineible"
+    },
+    {
+      "name": "SandTourmalineible",
+      "type": "tag",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sand_tourmalineible"
+    },
+    {
+      "name": "NetherrackTourmalineible",
+      "type": "tag",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherrack_tourmalineible"
+    },
+    {
+      "name": "TourmalineOreSand",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tourmaline_ore_sand"
+    },
+    {
+      "name": "TourmalineOreGravelUpdateTick",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tourmaline_ore_gravel_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TourmalineOreSandlUpdateTick",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tourmaline_ore_sandl_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TourmalineOreNetherrack",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tourmaline_ore_netherrack"
+    },
+    {
+      "name": "TourmalineOreNetherrackUpdateTick",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tourmaline_ore_netherrack_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.biomeores.deep_blue_sapphire": "Deep Blue Sapphire",
+      "block.biomeores.tourmaline_ore_sand": "Tourmaline Sand Ore",
+      "block.environmentalores.tourmaline_ore_gravel": "Tourmaline Gravel Ore",
+      "block.biomeores.tourmaline_ore_gravel": "Tourmaline Gravel Ore",
+      "item.environmentalores.shattuckite": "Shattuckite",
+      "block.environmentalores.tourmaline_ore_stone": "Tourmaline Stone Ore",
+      "item.environmentalores.polished_shattuckite": "Polished Shattuckite",
+      "item.biomeores.shattuckite": "Shattuckite",
+      "item.biomeores.polished_shattuckite": "Polished Shattuckite",
+      "block.environmentalores.deep_blue_sapphire_ore": "Deep Blue Sapphire Ore",
+      "block.environmentalores.shattuckite_ore": "Shattuckite Ore",
+      "block.biomeores.shattuckite_ore": "Shattuckite Ore",
+      "block.environmentalores.tourmaline_ore_sand": "Tourmaline Sand Ore",
+      "block.biomeores.tourmaline_ore_stone": "Tourmaline Stone Ore",
+      "block.biomeores.deep_blue_sapphire_ore": "Deep Blue Sapphire Ore",
+      "item.environmentalores.deep_blue_sapphire": "Deep Blue Sapphire",
+      "block.biomeores.tourmaline_crystal": "Tourmaline Crystal",
+      "block.biomeores.tourmaline_ore_netherrack": "Tourmaline Sand Ore",
+      "block.environmentalores.tourmaline_ore_netherrack": "Tourmaline Sand Ore",
+      "block.environmentalores.tourmaline_crystal": "Tourmaline Crystal"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "environmentalores",
+    "modName": "EnvironmentalOres",
+    "version": "1.0.0",
+    "author": "Oskar W. Heineck, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.biomeores",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000535716
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "environmentalores:blocks/tourmaline_netherrack_ore",
+    "up": "environmentalores:blocks/tourmaline_netherrack_ore",
+    "north": "environmentalores:blocks/tourmaline_netherrack_ore",
+    "east": "environmentalores:blocks/tourmaline_netherrack_ore",
+    "south": "environmentalores:blocks/tourmaline_netherrack_ore",
+    "west": "environmentalores:blocks/tourmaline_netherrack_ore",
+    "particle": "environmentalores:blocks/tourmaline_netherrack_ore"
+  }
+}

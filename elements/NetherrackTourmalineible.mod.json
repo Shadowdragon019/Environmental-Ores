@@ -1,0 +1,16 @@
+{
+  "_fv": 11,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "Blocks.QUARTZ_ORE"
+      }
+    ],
+    "functions": [],
+    "name": "netherrack_tourmalineible",
+    "namespace": "forge"
+  }
+}

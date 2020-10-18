@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "environmentalores:blocks/shattuckite_ore",
+    "up": "environmentalores:blocks/shattuckite_ore",
+    "north": "environmentalores:blocks/shattuckite_ore",
+    "east": "environmentalores:blocks/shattuckite_ore",
+    "south": "environmentalores:blocks/shattuckite_ore",
+    "west": "environmentalores:blocks/shattuckite_ore",
+    "particle": "environmentalores:blocks/shattuckite_ore"
+  }
+}

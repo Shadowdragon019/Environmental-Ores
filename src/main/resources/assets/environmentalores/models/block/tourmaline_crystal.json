@@ -1,0 +1,8 @@
+{
+  "parent": "environmentalores:custom/tourmaline_crystal",
+  "textures": {
+    "all": "environmentalores:blocks/tourmaline_crystal",
+    "particle": "environmentalores:blocks/tourmaline_crystal",
+    "0": "environmentalores:blocks/tourmaline_crystal"
+  }
+}

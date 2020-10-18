@@ -1,0 +1,16 @@
+{
+  "_fv": 11,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:DeepBlueSapphireOre"
+      }
+    ],
+    "functions": [],
+    "name": "gravel_tourmalineible",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "environmentalores:blocks/deep_blue_sapphire_ore",
+    "up": "environmentalores:blocks/deep_blue_sapphire_ore",
+    "north": "environmentalores:blocks/deep_blue_sapphire_ore",
+    "east": "environmentalores:blocks/deep_blue_sapphire_ore",
+    "south": "environmentalores:blocks/deep_blue_sapphire_ore",
+    "west": "environmentalores:blocks/deep_blue_sapphire_ore",
+    "particle": "environmentalores:blocks/deep_blue_sapphire_ore"
+  }
+}

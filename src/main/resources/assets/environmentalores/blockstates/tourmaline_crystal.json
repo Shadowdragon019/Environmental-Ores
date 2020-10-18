@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "environmentalores:block/tourmaline_crystal"
+    },
+    "facing=east": {
+      "model": "environmentalores:block/tourmaline_crystal",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "environmentalores:block/tourmaline_crystal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "environmentalores:block/tourmaline_crystal",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "environmentalores:block/tourmaline_crystal",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "environmentalores:block/tourmaline_crystal",
+      "x": 90
+    }
+  }
+}
